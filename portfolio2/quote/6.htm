@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Attainia Quote</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-formhelpers.css" rel="stylesheet">
+    <link href="css/bootstrap-editable.css" rel="stylesheet">
+    <link href="css/overrides.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet">
+
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-filestyle.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap-editable.min.js" type="text/javascript" ></script>
+
+</head>
+<body>
+
+<div class="container">
+
+
+<div class="row">
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="nav-collapse">
+				<a href="index.htm" class="attainia-logo pull-left"><img src="images/a.png"></a>
+				<ul class="nav pull-left">
+					<li><a href="#" class="attainia-brand" style="color:#ee4000;font-size:16px;">QUOTE</a></li>
+					<li class="divider-vertical"></li>
+				</ul>
+				<ul class="nav pull-right">
+					<li class="divider-vertical"></li>
+					<li id="btn-profile"><a href="#">Profile</a></li>
+					<li class="divider-vertical"></li>
+					<li id="btn-help"><a href="#">Help</a></li>
+					<li class="divider-vertical"></li>
+					<li id="btn-cancel"><a href="#">Cancel</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<form class="form-horizontal">
+
+
+
+<!----------------------------------- Progress Arrows ---------------------------------->
+
+<div class="row">
+	<div class="span12">
+		<div class="arrows-row">
+			<div id="arrow-1" class="arrow arrow-visited cursor" onClick="window.location.href='1.htm'">
+				<div class="arrow-left"></div>
+				<div class="arrow-text white">Request Details</div>
+				<div class="arrow-right"></div>
+			</div>
+			<div id="arrow-2" class="arrow arrow-visited cursor" onClick="window.location.href='2.htm'">
+				<div class="arrow-left"></div>
+				<div class="arrow-text">Suppliers</div>
+				<div class="arrow-right"></div>
+			</div>
+			<div id="arrow-3" class="arrow arrow-visited cursor" onClick="window.location.href='4.htm'">
+				<div class="arrow-left"></div>
+				<div class="arrow-text">Contact Info</div>
+				<div class="arrow-right"></div>
+			</div>
+			<div id="arrow-4" class="arrow arrow-visited cursor" onClick="window.location.href='5.htm'">
+				<div class="arrow-left"></div>
+				<div class="arrow-text">Notes</div>
+				<div class="arrow-right"></div>
+			</div>
+			<div id="arrow-5" class="arrow arrow-active" onClick="window.location.href='#'">
+				<div class="arrow-left"></div>
+				<div class="arrow-text">Review & Submit</div>
+				<div class="arrow-right"></div>
+			</div>
+			<a href="1.htm" class="btn btn-large pull-right">Submit</a>
+		</div>
+	</div>
+</div>
+
+
+<div class="spacer"></div>
+
+
+
+<!----------------------------------- Product header ---------------------------------->
+<h4>Quote Description</h4>
+
+<div class="row">
+	<div class="muted span9">
+		<label for="description">
+			Description: <span class="ast">*</span> <input type="text" class="span7" placeholder="Bed, Electric">
+		</label>
+	</div>
+</div>
+
+
+
+<div class="spacer"></div>
+
+
+<!----------------------------------- Review and Submit  ---------------------------------->
+
+<h4>Review and Submit</h4>
+
+<div class="row">
+	<div class="span12 muted explanation">
+		Click on a choice to change it
+	</div>
+</div>
+
+<table class="table table-bordered table-condensed">
+	<tr>
+		<th class="table3">Description</th>
+		<th>My Choice</th>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='1.htm'">
+		<td class="muted">Quote Request Type</td>
+		<td>Request for Quote (RFQ)</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='1.htm'">
+		<td class="muted">Disclose Manufacturer</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='1.htm'">
+		<td class="muted">Disclose Vendor</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='1.htm'">
+		<td class="muted">Disclose Model</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='1.htm'">
+		<td class="muted">Quantity</td>
+		<td>1</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='1.htm'">
+		<td class="muted">My Reference ID</td>
+		<td>AT367RU</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='1.htm'">
+		<td class="muted">Estimated Need By</td>
+		<td>28/Mar/2013</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='1.htm'">
+		<td class="muted">Response Due By</td>
+		<td>28/Feb/2013</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='1.htm'">
+		<td class="muted">Supplier(s)</td>
+		<td>Multiple Suppliers (3)</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='1.htm'">
+		<td class="muted">Supplier Contact(s)</td>
+		<td>Multiple Contacts (5)</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='4.htm'">
+		<td class="muted">Disclose City</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='4.htm'">
+		<td class="muted">Disclose Project</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='4.htm'">
+		<td class="muted">Disclose Phone</td>
+		<td>No</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='4.htm'">
+		<td class="muted">Disclose Alt Phone</td>
+		<td>No</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='4.htm'">
+		<td class="muted">Disclose Other Phone</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='1.htm'">
+		<td class="muted">Send Copy To Others</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='1.htm'">
+		<td class="muted">Attach Item Document(s)</td>
+		<td>Vendor Requirements</td>
+	</tr>
+	<tr class="clickRowDk" onClick="window.location.href='1.htm'">
+		<td class="muted">Attach Project Document(s)</td>
+		<td>Multiple Documents (2)</td>
+	</tr>
+	<tr class="clickRow" onClick="window.location.href='1.htm'">
+		<td class="muted">Other Attachment(s)</td>
+		<td>None</td>
+	</tr>
+</table>
+
+
+<!-- /container -->
+</div>
+
+<div class="row">
+	<div class="span2 pull-right">
+		<span class="ast">* Required</span>
+	</div>
+</div>
+
+<!-- Help/Splash popup -->
+<div id="splashModal" class="modal hide fade span10" role="dialog" aria-labelledby="splashModal" aria-hidden="true">
+	<div class="modal-header">
+		<img class="splash-logo" src="images/splash-logo.png">
+		<button type="button" class="close splash-close" data-dismiss="modal" aria-hidden="true">x</button>
+	</div>
+	<div class="modal-body splash-modal-body">
+		<div class="splash-slide-container">
+
+			<div id="splash-slide-0">
+				<div class="splash-arrows-row">
+					<div id="splash-arrow-0-prev" class="splash-arrow">
+						<div class="splash-arrow-prev"></div><div class="arrow-text white">Back</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-0-1" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text white">Submit a Quote</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-0-2" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Responses</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-0-3" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Management</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-0-next" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Next</div><div class="arrow-right"></div>
+					</div>
+				</div>
+				<div class="splash-slide">
+					<h3>The right quote, right now.</h4>
+						Healthcare's largest supplier 
+						network is also the easiest to use.
+				</div>
+			</div>
+
+			<div id="splash-slide-1">
+				<div class="splash-arrows-row">
+					<div id="splash-arrow-1-prev" class="splash-arrow">
+						<div class="splash-arrow-prev"></div><div class="arrow-text white">Back</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-1-1" class="splash-arrow splash-arrow-sel">
+						<div class="arrow-left"></div><div class="arrow-text white">Submit a Quote</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-1-2" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Responses</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-1-3" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Management</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-1-next" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Next</div><div class="arrow-right"></div>
+					</div>
+				</div>
+				<div class="splash-slide">
+					<h3>Just what you need.  Just in time.</h4>
+					<p>
+					1. Enter a description of any type.<br>
+					2. Choose the type of request and specify key requirements.<br>
+					3. Select one or more suppliers.<br>
+					4. Assign your supplier information.<br>
+					5. Attach relevant documents and/or enter details.
+					</p>
+				</div>
+			</div>
+
+			<div id="splash-slide-2">
+				<div class="splash-arrows-row">
+					<div id="splash-arrow-2-prev" class="splash-arrow">
+						<div class="splash-arrow-prev"></div><div class="arrow-text white">Back</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-2-1" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text white">Submit a Quote</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-2-2" class="splash-arrow splash-arrow-sel">
+						<div class="arrow-left"></div><div class="arrow-text">Responses</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-2-3" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Management</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-2-next" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Next</div><div class="arrow-right"></div>
+					</div>
+				</div>
+				<div class="splash-slide">
+					<h3>Only hear from the ones you want.</h4>
+					<p>
+					To manage your privacy, your suppliers receive an initial email with only your organization name and equipment categories.  
+					</p>
+					<p>
+					Suppliers indicate their interest and response time.
+					</p>
+					<p>
+					Interested suppliers receive a subsequent email message containing the full details of your request.
+					</p>
+				</div>
+			</div>
+
+			<div id="splash-slide-3">
+				<div class="splash-arrows-row">
+					<div id="splash-arrow-3-prev" class="splash-arrow">
+						<div class="splash-arrow-prev"></div><div class="arrow-text white">Back</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-3-1" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text white">Submit a Quote</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-3-2" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Responses</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-3-3" class="splash-arrow splash-arrow-sel">
+						<div class="arrow-left"></div><div class="arrow-text">Management</div><div class="arrow-right"></div>
+					</div>
+					<div id="splash-arrow-3-next" class="splash-arrow">
+						<div class="arrow-left"></div><div class="arrow-text">Next</div><div class="arrow-right"></div>
+					</div>
+				</div>
+				<div class="splash-slide">
+					<h3>Managed by Attainia.</h4>
+					<p>
+					Supplier acknowledgements are saved in your History when sent from an Item or Request.
+					</p>
+					<p>
+					Thereafter, correspondence between you and the supplier(s) will be outside the Attainia application.
+					</p>
+					<p>
+					If one or more suppliers do not respond to your request, Attainia will attempt to contact them. If a supplier remains unresponsive, Attainia will follow up with you.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer splash-modal-footer">
+		<div class="span5 pull-left" style="text-align:left">
+				<input checked type="checkbox" style="margin:-2px 5px 0 0;">Show this message each time I open this form
+		</div>
+		<button class="btn btn-default splash-close" data-dismiss="modal" aria-hidden="true">Get Started</button>
+	</div>
+</div> 
+<!-- /splash popup -->
+
+<script src="js/splash-popup.js" type="text/javascript" ></script>
+<script src="js/bootstrap-tooltip.js" type="text/javascript" ></script>
+<script src="js/bootstrap-formhelpers-datepicker.js" type="text/javascript" ></script>
+<script src="js/bootstrap-formhelpers-datepicker.en_US.js" type="text/javascript" ></script>
+
+</body>
+</html>
+
+

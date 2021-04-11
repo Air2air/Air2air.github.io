@@ -1,0 +1,43 @@
+
+/*----------------------- Charts ------------------------------*/
+
+.chart-count {
+position:absolute;
+top:20px;
+right:20px;
+height:40px;
+width:auto;
+min-width:100px;
+font-size:1.6em;
+text-align:right;
+font-weight:100!important;
+float:right;
+line-height:2em;
+}
+
+.chart-mini {
+height:40px;
+width:30px;
+float:right;
+margin:0 0 0 10px;
+}
+
+.chart-mini-1 {
+background:url('../images/chart-mini-1.png') center center no-repeat;
+background-size: 40px 30px;
+}
+
+.chart-mini-2 {
+background:url('../images/chart-mini-2.png') center center no-repeat;
+background-size: 40px 30px;
+}
+
+.chart-mini-3 {
+background:url('../images/chart-mini-3.png') center center no-repeat;
+background-size: 40px 30px;
+}
+
+.chart-mini-4 {
+background:url('../images/chart-mini-4.png') center center no-repeat;
+background-size: 40px 30px;
+}

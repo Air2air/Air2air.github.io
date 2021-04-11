@@ -1,0 +1,19 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="2">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="4368" startPos="456" endPos="456" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\page.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="4368" startPos="38" endPos="38" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\data.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="4368" startPos="263" endPos="263" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\assets\css\fonts.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1328" startPos="64" endPos="64" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\bottom.php" />
+            <File firstVisibleLine="47" xOffset="0" scrollWidth="1328" startPos="3086" endPos="3086" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\header.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1328" startPos="867" endPos="867" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\vote.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="4368" startPos="3997" endPos="3997" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\assets\css\buttons.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="4368" startPos="211" endPos="211" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\assets\css\charts.css" />
+            <File firstVisibleLine="10" xOffset="0" scrollWidth="4368" startPos="134" endPos="134" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\assets\css\images.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="4368" startPos="55" endPos="55" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\assets\css\import.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="4368" startPos="313" endPos="313" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\assets\css\nav.css" />
+            <File firstVisibleLine="7" xOffset="0" scrollWidth="4368" startPos="225" endPos="225" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\Todd\Desktop\Meocracy\fr\antilles\st-barthelemy\assets\css\vote.css" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

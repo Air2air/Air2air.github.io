@@ -1,0 +1,330 @@
+/*--------- BODY ----------- */
+body {
+margin: 0;
+padding: 0;
+}
+
+/*--------------------- Wrappers ------------------- */
+.wrapper-overall {
+position:relative;
+top:0px;
+width:930px;
+height:auto;
+min-height:200px;
+margin:0 auto;
+clear:all;
+text-align:center;
+}
+
+.wrapper-left {
+width:600px;
+height:auto;
+float:left;
+}
+
+.wrapper-right {
+width:295px;
+height:auto;
+float:right;
+}
+
+/*--------------------- Splash ------------------- */
+
+.splash {
+position:relative;
+top:0;
+left:0;
+width:921px;
+height: 300px;
+clear:all;
+cursor:pointer;
+background-image:url('../images/splash.jpg');
+background-repeat:no-repeat;
+background-size:921px 600px;
+background-position:0 -300px;
+margin-left:4px;
+overflow:hidden;
+}
+
+.splash:hover {
+background-position:0 0;
+}
+
+
+/*--------------------- First choice button ------------------- */
+
+.first-choice {
+position:relative;
+top:30px;
+width:286px;
+height: 90px;
+margin:0 auto;
+clear:all;
+text-align:center;
+cursor:pointer;
+}
+
+
+
+/*--------------------- Row divs ------------------- */
+
+.row-left {
+min-height:90px;
+width:600px;
+text-align:center;
+margin-bottom:8px;
+}
+
+.row-right {
+min-height:90px;
+width:295px;
+text-align:center;
+margin-bottom:8px;
+}
+
+/*------------------ Hide -----------------------*/
+.hide {
+display:none;
+}
+
+.show {
+display:block;
+}
+
+
+/*--------------------- Units - single row ------------------- */
+
+
+/*--------------------- Unit 1 X 1 ------------------- */
+.unit-1x1, .unit-1x1left, .unit-1x1right {
+float:left;
+width:70px;
+height: 90px;
+cursor:pointer;
+text-align:center;
+padding:0 10px;
+}
+
+.unit-1x1 {
+margin:0 4px;
+}
+
+.unit-1x1left {
+margin:0 4px 0 0;
+}
+
+.unit-1x1right {
+margin:0 10px 0 4px;
+}
+
+.unit-1x1 img {
+height:32px;
+width:32px;
+margin:12px auto 8px auto;
+}
+
+
+/*--------------------- Unit Status 1 X 1  ------------------- */
+.unit-status {
+float:left;
+width:50px;
+height: 70px;
+margin:10px;
+cursor:pointer;
+text-align:center;
+padding:0 10px;
+}
+
+/*--------------------- Unit 1.5 X 1 ------------------- */
+
+.unit-15x1 {
+float:left;
+width:139px;
+height: 90px;
+margin:0 4px;
+cursor:pointer;
+}
+
+.unit-15x1 p {
+font-size:1.2em;
+font-weight:400;
+position:relative;
+top:14px;
+}
+
+/*--------------------- Unit 15 X 1 Right Side ------------------- */
+
+.unit-15x1left, .unit-15x1right {
+float:left;
+width:118px;
+height: 90px;
+cursor:pointer;
+padding:0 10px;
+text-align:center;
+}
+
+.unit-15x1left {
+margin:0 4px 0 0;
+}
+
+.unit-15x1right {
+margin:0 0 0 4px;
+}
+
+
+/*--------------------- Unit 2 X 1 ------------------- */
+
+.unit-2x1 {
+float:left;
+width:188px;
+height: 90px;
+margin:0 4px;
+cursor:pointer;
+}
+
+.unit-2x1 p {
+font-size:1.2em;
+font-weight:400;
+position:relative;
+top:14px;
+}
+
+/*--------------------- Unit 3 X 1 ------------------- */
+
+.unit-3x1 {
+float:left;
+width:286px;
+height: 90px;
+margin:0 4px;
+}
+
+.unit-3x1 img {
+height:32px;
+width:32px;
+margin:12px auto 8px auto;
+}
+
+.float-3x1 {
+float:left;
+width:286px;
+height: 90px;
+}
+
+
+/*--------------------- Unit 3 X 2 ------------------- */
+
+.unit-3x2 {
+float:left;
+width:286px;
+height: 186px;
+margin:0 4px 8px 4px;
+}
+
+/*--------------------- Unit 3 X 3 ------------------- */
+
+.unit-3x3 {
+float:left;
+width:286px;
+height: 286px;
+margin:0 4px 8px 4px;
+}
+
+/*--------------------- Unit 4 X 1 ------------------- */
+
+.unit-4x1 {
+float:left;
+width:432px;
+height: 90px;
+margin:0 4px;
+}
+
+
+/*--------------------- Unit 6 X 1 ------------------- */
+
+.unit-6x1 {
+float:left;
+width:580px;
+height: 90px;
+margin-left:4px;
+cursor:pointer;
+}
+
+/*--------------------- Unit 6 X 2 ------------------- */
+
+.unit-6x2 {
+float:left;
+width:580px;
+height: 188px;
+margin-left:4px;
+cursor:pointer;
+}
+
+
+/*--------------------- Unit 6 X 3------------------- */
+
+.unit-6x3-pad {
+width:540px;
+margin:10px 20px;
+height:auto;
+}
+
+.unit-header {
+width:540px;
+height:50px;
+}
+
+/*--------------------- Unit Form------------------- */
+
+.unit-form1 {
+float:left;
+width:540px;
+padding:20px 20px;
+height: 50px;
+margin:0 4px;
+}
+
+.unit-form2 {
+float:left;
+width:540px;
+padding:20px 20px;
+height: 186px;
+margin:0 4px;
+}
+
+.unit-form3 {
+float:left;
+width:540px;
+padding:20px 20px;
+height: 246px;
+margin:0 4px;
+}
+
+
+/*--------------------- Button Row ------------------- */
+.button-row {
+float:left;
+width:540px;
+padding:20px;
+height: 50px;
+margin:0 4px 8px 4px;
+background:#AF1500;
+}
+
+
+
+/*--------------------- API String ------------------- */
+
+.string {
+padding-top:15px;
+font-weight:bold;
+height: 50px;
+width: auto;
+color:#FFF;
+text-shadow:none;
+text-align:center;
+clear:both;
+margin:30px auto;
+}
+
+
+

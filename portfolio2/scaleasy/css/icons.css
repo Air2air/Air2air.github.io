@@ -1,0 +1,124 @@
+
+/*--------------------- Icon Layouts ------------------- */
+.icon, .icon-status {
+overflow:hidden;
+height:36px;
+width:36px;
+margin:12px auto 6px auto;
+background-size:576px 252px;
+}
+
+.icon {
+margin:12px auto 6px auto;
+}
+
+.icon-status {
+margin:0px auto 6px auto;
+}
+
+/*--------------------- Icon backrounds ------------------- */
+
+.icon-alert {
+background:url('../images/sprite.png') no-repeat 0px 0px;
+}
+
+.icon-amazon, .icon-amazonlinux {
+background:url('../images/sprite.png') no-repeat -252px -72px;
+}
+
+.icon-apple {
+background:url('../images/sprite.png') no-repeat 0px -36px;
+}
+
+.icon-azure {
+background:url('../images/sprite.png') no-repeat -144px -72px;
+}
+
+.icon-bluelock {
+background:url('../images/sprite.png') no-repeat -180px -72px;
+}
+
+.icon-centos {
+background:url('../images/sprite.png') no-repeat -108px -36px;
+}
+
+.icon-checkmark {
+background:url('../images/sprite.png') no-repeat -144px 0px;
+}
+
+.icon-debian {
+background:url('../images/sprite.png') no-repeat -144px -36px;
+}
+
+.icon-dell {
+background:url('../images/sprite.png') no-repeat -108px -72px;
+}
+
+.icon-fedora {
+background:url('../images/sprite.png') no-repeat -216px -36px;
+}
+
+.icon-freebsd {
+background:url('../images/sprite.png') no-repeat -36px -108px;
+}
+
+.icon-gear {
+background:url('../images/sprite.png') no-repeat -180px 0px;
+}
+
+.icon-gentoo {
+background:url('../images/sprite.png') no-repeat -72px -108px;
+}
+
+.icon-google {
+background:url('../images/sprite.png') no-repeat -36px -72px;
+}
+
+.icon-hp {
+background:url('../images/sprite.png') no-repeat -72px -72px;
+}
+
+.icon-java {
+background:url('../images/sprite.png') no-repeat 0px -108px;
+}
+
+.icon-lamp {
+background:url('../images/sprite.png') no-repeat -252px -36px;
+}
+
+.icon-opensuse {
+background:url('../images/sprite.png') no-repeat -0px -108px;
+}
+
+.icon-other {
+background:url('../images/sprite.png') no-repeat -252px 0px;
+}
+
+.icon-question {
+background:url('../images/sprite.png') no-repeat -108px -108px;
+}
+
+.icon-rackspace {
+background:url('../images/sprite.png') no-repeat -216px -72px;
+}
+
+.icon-redhat {
+background:url('../images/sprite.png') no-repeat -180px -36px;
+}
+
+.icon-terremark {
+background:url('../images/sprite.png') no-repeat -0px -72px;
+}
+
+.icon-ubuntu {
+background:url('../images/sprite.png') no-repeat -36px -36px;
+}
+
+.icon-user {
+background:url('../images/sprite.png') no-repeat -36px 0px;
+}
+
+.icon-windows {
+background:url('../images/sprite.png') no-repeat -72px -36px;
+}
+

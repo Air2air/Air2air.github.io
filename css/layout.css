@@ -1,0 +1,67 @@
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+html, body {
+	line-height: 1;
+	min-height:100%;
+	color:#888;
+
+}
+
+a {
+text-decoration:none;
+font-size:1.4em;
+}
+
+.logo {
+background:url('../images/logo.png') no-repeat;
+height:60px;
+margin:20px auto;
+}
+
+.thumbnail {
+padding:14px;
+}
+
+.caption {
+color:#555;
+font-weight:normal;
+}
+
+.title {
+float:right;
+color:#ccc;
+margin-top:40px;
+}
+
+.site {
+text-align:center;
+}
+
+.site img {
+cursor:pointer;
+zoom: 1;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+border:1px solid #EEE;
+cursor:pointer;
+}
+
+.asset {
+float:left;
+margin:20px;
+zoom: 1;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+border:1px solid #EEE;
+cursor:pointer;
+max-height:320px;
+width:auto;
+}
+

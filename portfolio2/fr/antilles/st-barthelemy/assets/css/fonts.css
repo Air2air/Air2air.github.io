@@ -1,0 +1,57 @@
+
+body, html * {
+font-family: 'Roboto', sans-serif!important; 
+font-size:15px;
+font-weight: 300!important;
+}
+
+h1{
+font-family: 'Roboto Condensed', sans-serif!important; 
+font-size:2em;
+font-weight:300;
+margin:12px auto!important; 
+line-height:1.1em;
+}
+
+h3{
+font-family: 'Roboto', sans-serif!important; 
+font-size:1.2em!important; 
+font-weight: 300;
+margin:4px 0!important; 
+}
+
+h4{
+font-family: 'Roboto', sans-serif!important; 
+font-size:1em!important; 
+font-weight: 300;
+margin:4px 0!important; 
+text-transform:uppercase;
+}
+
+/* --------------- LI count bubbles ------------*/
+
+.ul-li-count {
+}
+
+.red {
+font-size:1em!important; 
+color:red;
+}
+
+.gray {
+font-size:1em!important; 
+color:#AAAAAA;
+}
+
+.ui-content p {
+font-size:1.1em;
+}
+
+/* --------------- LI sponsor message ------------*/
+
+.sponsor-message {
+text-transform:uppercase;
+color:#CCC!important;
+letter-spacing:.2em;
+}
+

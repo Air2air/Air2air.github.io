@@ -1,0 +1,34 @@
+
+
+
+/*---------------------------- Header Nav Buttons ----------------------------*/
+
+.header, .navbar, .header_nav {
+border-bottom:0px!important;
+}
+
+.header_nav p {
+padding:0px!important;
+margin:0px!important;
+}
+
+.header_nav a {
+}
+
+.header_nav_active a {
+}
+
+hr {
+border-top:1px solid #000000;
+border-bottom:1px solid #555555;
+border-left:none;
+border-right:none;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:at="http://www.attainia.com/extension/1.0">
+ <head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<style type="text/css">
+
+body {
+text-align:center;
+}
+
+.container {
+margin:0 auto;
+width:640px;
+height:440px;
+}
+
+.slide {
+display:none;
+width:640px;
+height:440px;
+position:absolute;
+top:0;
+}
+
+.nav-bar {
+position:relative;
+top:-370px;
+left:0px;
+width:600px;
+height:40px;
+cursor:pointer;
+margin:0 auto;
+}
+
+.nav-arrow-left, .nav-arrow-right {
+float:left;
+width:70px;
+height:40px;
+background:#FFF;
+-moz-opacity: 0.60;
+opacity: 0.60;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+}
+
+.button-1 {
+float:left;
+width:172px;
+height:40px;
+background:#FFF;
+-moz-opacity: 0.60;
+opacity: 0.60;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+}
+
+.button-2 {
+float:left;
+width:130px;
+height:40px;
+background:#FFF;
+-moz-opacity: 0.60;
+opacity: 0.60;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+}
+
+.button-3 {
+float:left;
+width:150px;
+height:40px;
+background:#FFF;
+-moz-opacity: 0.60;
+opacity: 0.60;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+}
+
+
+#slide-1 {
+background:url('images/slide-1.png');
+}
+
+#slide-2 {
+background:url('images/slide-2.png');
+}
+
+#slide-3 {
+background:url('images/slide-3.png');
+}
+
+#slide-4 {
+background:url('images/slide-4.png');
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+	<div id="slide-1" class="slide">
+	</div>
+	<div id="slide-2" class="slide">
+	</div>
+	<div id="slide-3" class="slide">
+	</div>
+	<div id="slide-4" class="slide">
+	</div>
+</div>
+<div class="nav-bar">
+	<div class="nav-arrow-left"></div>
+	<div class="button-1"></div>
+	<div class="button-2"></div>
+	<div class="button-3"></div>
+	<div class="nav-arrow-right"></div>
+</div>
+
+<script>
+
+var fadeTime = "600";
+var pauseTime = "5000";
+
+$(document).ready(function(){
+    $("#slide-1").fadeIn(fadeTime, function() {
+		$("#slide-2").delay(pauseTime).fadeIn(fadeTime, function() {
+			$("#slide-3").delay(pauseTime).fadeIn(fadeTime, function() {
+				$("#slide-4").delay(pauseTime).fadeIn(fadeTime, function() {
+					$("#slide-2,#slide-3,#slide-4,").delay(pauseTime).fadeOut();
+				});
+			});
+		});
+	});
+});
+
+$(".nav-arrow-left, .nav-arrow-right, .button-1, .button-2, .button-3").mouseover( function() {
+	$(this).css( {opacity:0} );
+	$("#slide-1, #slide-2, #slide-3, #slide-4").stop(true, true);
+});
+
+$(".nav-arrow-left, .nav-arrow-right, .button-1, .button-2, .button-3").mouseout( function() {
+	$(this).css( {opacity:0.6} );
+});
+
+$(".nav-arrow-left, .nav-arrow-right").click( function() {
+	$("#slide-1").fadeIn(fadeTime);
+	$("#slide-1").siblings().fadeOut(fadeTime);
+});
+
+$(".button-1").click( function() {
+	$("#slide-2").fadeIn(fadeTime);
+	$("#slide-2").siblings().fadeOut(fadeTime);
+});
+
+$(".button-2").click( function() {
+	$("#slide-3").fadeIn(fadeTime);
+	$("#slide-3").siblings().fadeOut(fadeTime);
+});
+
+$(".button-3").click( function() {
+	$("#slide-4").fadeIn(fadeTime);
+	$("#slide-4").siblings().fadeOut(fadeTime);
+});
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+

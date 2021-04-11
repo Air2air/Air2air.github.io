@@ -1,0 +1,46 @@
+.badge {
+    background: rgba(0, 0, 0, .4);
+    padding: 6px;
+    margin: 6px auto;
+    width: auto;
+    display: inline-block;
+    font-size: 1.4em;
+}
+
+#ship {
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+}
+
+.circle {
+    text-align: center;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: #FFFFFF;
+}
+
+.sun-back {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+.sun-front {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang=en>
+
+<head>
+  <title>Neoforma</title>
+
+  <meta http-equiv="content-Type" content="text/html;charset=utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+  <div class="container">
+
+	  	<br />	<br /> 
+<p align="center">
+        <img id="logo-img" src="images/logo.svg" alt="Dunning Marketing Labs" style="height:60px;margin:0 auto">
+</p>
+
+
+	<hr />
+
+
+    <div class="gallery">
+
+
+      <div class="row">
+        <div class="col-xs-4 col-sm-3">
+          <img src="neof/images/fortune-1.jpg" alt="" data-toggle="modal" data-bigimage="neof/images/fortune-1.jpg" data-target="#myModal"
+            class="img-fluid" style="cursor:pointer;border:2px solid #888"><br /><br />
+        </div>
+        <div class="col-xs-4 col-sm-3">
+          <img src="neof/images/fortune-2.jpg" alt="" data-toggle="modal" data-bigimage="neof/images/fortune-2.jpg" data-target="#myModal"
+            class="img-fluid" style="cursor:pointer;border:2px solid #888"><br /><br />
+        </div>
+        <div class="col-xs-4 col-sm-3">
+          <img src="neof/images/fortune-3.jpg" alt="" data-toggle="modal" data-bigimage="neof/images/fortune-3.jpg" data-target="#myModal"
+            class="img-fluid" style="cursor:pointer;border:2px solid #888"><br /><br />
+        </div>
+        <div class="col-xs-4 col-sm-3">
+          <img src="neof/images/fortune-4.jpg" alt="" data-toggle="modal" data-bigimage="neof/images/fortune-4.jpg" data-target="#myModal"
+            class="img-fluid" style="cursor:pointer;border:2px solid #888"><br /><br />
+        </div>
+        <div class="col-xs-4 col-sm-3">
+          <img src="neof/images/fortune-5.jpg" alt="" data-toggle="modal" data-bigimage="neof/images/fortune-5.jpg" data-target="#myModal"
+            class="img-fluid" style="cursor:pointer;border:2px solid #888"><br /><br />
+        </div>
+        <div class="col-xs-4 col-sm-3">
+          <img src="neof/images/fortune-6.jpg" alt="" data-toggle="modal" data-bigimage="neof/images/fortune-6.jpg" data-target="#myModal"
+            class="img-fluid" style="cursor:pointer;border:2px solid #888"><br /><br />
+        </div>
+      </div>
+
+
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+              <img src="http://media.tenor.com/images/556e9ff845b7dd0c62dcdbbb00babb4b/tenor.gif" alt="" id="image" class="img-fluid">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+
+
+
+    <script>
+      $(document).ready(function () {
+
+        // Gets the video src from the data-src on each button
+        var $imageSrc;
+        $('.gallery img').click(function () {
+          $imageSrc = $(this).data('bigimage');
+        });
+        console.log($imageSrc);
+
+
+
+        // when the modal is opened autoplay it  
+        $('#myModal').on('shown.bs.modal', function (e) {
+
+          // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+
+          $("#image").attr('src', $imageSrc);
+        })
+
+
+        // reset the modal image
+        $('#myModal').on('hide.bs.modal', function (e) {
+          // a poor man's stop video
+          $("#image").attr('src', '');
+        })
+
+
+
+
+
+
+        // document ready  
+      });
+
+    </script>
+
+
+</body>
+
+</html>

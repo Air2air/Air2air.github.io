@@ -1,0 +1,9 @@
+
+
+Send to contacts - make it look like Sencha
+
+I think these are the open items:
+1) Email feedback that I provided for all the screens
+2) Supplier Contact(s) redesign - from a table format to the format in Sencha screens
+3) Attach Documents section redesign
+4) Review & Submit page

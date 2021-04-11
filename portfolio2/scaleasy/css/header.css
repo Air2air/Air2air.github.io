@@ -1,0 +1,30 @@
+
+/*------------------ Header -----------------------*/
+
+.header {
+position:relative;
+top:0;
+width:930px;
+height:98px;
+margin:0 auto;
+}
+
+.logo {
+float:left;
+width:294px;
+height:98px;
+position:relative;
+top:0;
+left:0;
+background:url('../images/logo.png') 0px 20px no-repeat;
+cursor:pointer;
+}
+
+.user {
+width:295px;
+height:98px;
+position:relative;
+top:0;
+float:right;
+text-align:center;
+}
